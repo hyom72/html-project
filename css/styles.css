@@ -1,0 +1,213 @@
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+}
+#page1 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+#page1 .title {
+  margin-left: 10%;
+}
+#page1 .button {
+  display: flex;
+}
+#page1 .button_click1,
+.button_click2 {
+  margin-right: 30px;
+  text-decoration: none;
+}
+#page1 aside img {
+  width: 600px;
+  height: 500px;
+}
+#page1 main {
+  display: flex;
+  justify-content: space-around;
+}
+#page1 .sub1 {
+  padding-bottom: 50px;
+  width: 400px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+#page1 .sub1 a {
+  text-decoration: none;
+}
+#page1 .sub2 {
+  width: 400px;
+}
+#page1 footer {
+  margin-top: 45px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+#page1 footer p {
+  margin-top: 1px;
+}
+
+#page2 header,
+#page3 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+#page2 .title,
+#page3 .title {
+  margin-left: 10%;
+}
+#page2 .button,
+#page3 .button {
+  display: flex;
+}
+#page2 .button_click1,
+.button_click2,
+#page3 .button_click1,
+.button_click2 {
+  margin-right: 30px;
+  text-decoration: none;
+}
+#page2 footer,
+#page3 footer {
+  margin-top: 45px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+#page2 footer p,
+#page3 footer p {
+  margin-top: 1px;
+}
+#page2 section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#page2 .article_1 {
+  height: 300px;
+  padding-top: 100px;
+  padding-right: 20%;
+  border-right: 1px solid black;
+}
+#page2 .article_2 {
+  width: 500px;
+}
+#page2 .article_2 ul {
+  padding-left: 0px;
+}
+#page2 .article_3 {
+  margin-bottom: -10px;
+  text-align: center;
+}
+#page3 section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .image_hyo {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  p {
+    font-size: 32px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+  li {
+    font-size: 32px;
+    text-align: center;
+  }
+  #page1 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  #page1 footer,
+  #page2 footer,
+  #page3 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #page1 section {
+    margin-top: 150px;
+    padding-bottom: 250px;
+  }
+  #page1 header,
+  #page2 header,
+  #page3 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #page2 section {
+    display: flex;
+    flex-direction: column;
+  }
+  #page2 .article_1 {
+    padding-right: 0px;
+    border-right: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+  #page2 .article_2 h2,
+  #page2 .article_1 h2,
+  #page2 .article_3 h2,
+  #page3 .article_4 h2,
+  #page3 .article_5 h2 {
+    color: tomato;
+    font-size: 46px;
+  }
+  #page2 .article_3 {
+    border-top: 1px solid black;
+    margin-bottom: 200px;
+    width: 70%;
+    margin-left: 15%;
+  }
+  #page3 section {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  #page3 .article_4 {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+  }
+  #page3 .article_5 {
+    margin-top: 100px;
+  }
+  #page3 article h1 {
+    font-size: 100px;
+    color: red;
+  }
+  #page3 .article_6 {
+    margin-bottom: 200px;
+  }
+  #page0 a {
+    font-size: 100px;
+  }
+  #page0 .page0_p {
+    display: none;
+  }
+}
