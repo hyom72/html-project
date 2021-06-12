@@ -6,12 +6,16 @@ a {
 }
 header {
 }
+.noDisplay {
+  display: none;
+}
 #page1 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
   margin-bottom: 15px;
+  background-color: white;
 }
 #page1 .title {
   margin-left: 10%;
@@ -48,6 +52,7 @@ header {
   margin-top: 45px;
   border-top: 1px solid black;
   text-align: center;
+  background-color: white;
 }
 #page1 footer p {
   margin-top: 1px;
@@ -60,6 +65,7 @@ header {
   align-items: center;
   border-bottom: 1px solid black;
   margin-bottom: 15px;
+  background-color: white;
 }
 #page2 .title,
 #page3 .title {
@@ -81,6 +87,7 @@ header {
   margin-top: 45px;
   border-top: 1px solid black;
   text-align: center;
+  background-color: white;
 }
 #page2 footer p,
 #page3 footer p {
@@ -122,20 +129,23 @@ header {
 }
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   p {
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
   }
   h3 {
-    font-size: 40px;
+    font-size: 28px;
     text-align: center;
   }
   h2 {
-    font-size: 42px;
+    font-size: 32px;
     text-align: center;
   }
   li {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
+  }
+  #page2 .article_2 li {
+    font-size: 20px;
   }
   #page1 main {
     display: flex;
@@ -177,7 +187,7 @@ header {
   #page3 .article_4 h2,
   #page3 .article_5 h2 {
     color: tomato;
-    font-size: 46px;
+    font-size: 32px;
   }
   #page2 .article_3 {
     border-top: 1px solid black;
@@ -203,6 +213,9 @@ header {
   }
   #page3 .article_6 {
     margin-bottom: 200px;
+  }
+  #page3 .article_6 h1 {
+    font-size: 2em;
   }
   #page0 a {
     font-size: 100px;
